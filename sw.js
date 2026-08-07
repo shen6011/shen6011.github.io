@@ -1,5 +1,5 @@
 // Service Worker：离线缓存 + 每日后台推送通知
-const CACHE = 'expiry-keeper-v4';
+const CACHE = 'expiry-keeper-v5';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './styles.css',
   './vendor/dexie.min.js', './vendor/xlsx.full.min.js', './vendor/html5-qrcode.min.js',
