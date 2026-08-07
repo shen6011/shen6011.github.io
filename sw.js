@@ -1,5 +1,5 @@
 // Service Worker：离线缓存 + 每日后台推送通知
-const CACHE = 'expiry-keeper-v6';
+const CACHE = 'expiry-keeper-v7';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './styles.css',
   './vendor/dexie.min.js', './vendor/xlsx.full.min.js', './vendor/html5-qrcode.min.js',
@@ -13,6 +13,8 @@ const ASSETS = [
 importScripts('./vendor/dexie.min.js');
 
 self.addEventListener('install', e => {
+  // 自动激活，避免「新版已安装但旧页面不发送激活指令」导致更新卡死的死锁
+  self.skipWaiting();
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
 });
 self.addEventListener('message', e => {
