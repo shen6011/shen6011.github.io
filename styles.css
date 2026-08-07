@@ -88,6 +88,7 @@ input, select, textarea {
   width: 100%; background: var(--bg-elev2); border: 1px solid var(--border); color: var(--text);
   border-radius: 10px; padding: 11px 12px; font-size: 15px; outline: none;
 }
+input[type="date"] { width: 100%; min-width: 0; -webkit-appearance: none; appearance: none; }
 input:focus, select:focus, textarea:focus { border-color: var(--accent); }
 textarea { resize: vertical; min-height: 60px; }
 
@@ -190,6 +191,18 @@ textarea { resize: vertical; min-height: 60px; }
   background: #000; color: #fff; padding: 10px 16px; border-radius: 10px; font-size: 14px; z-index: 50;
   box-shadow: var(--shadow); max-width: 80%;
 }
+/* 新版本提示条 */
+.update-bar {
+  position: fixed; left: 50%; transform: translateX(-50%);
+  bottom: 70px; z-index: 60; display: flex; align-items: center; gap: 10px;
+  background: var(--accent); color: #fff; padding: 8px 14px; border-radius: 999px;
+  box-shadow: var(--shadow); font-size: 13px; max-width: 86%;
+}
+.update-bar button {
+  border: none; background: rgba(255,255,255,.22); color: #fff;
+  border-radius: 999px; padding: 6px 14px; font-size: 13px; cursor: pointer; white-space: nowrap;
+}
+.update-bar button:active { background: rgba(255,255,255,.38); }
 .switch { position: relative; width: 46px; height: 26px; flex: 0 0 auto; }
 .switch input { opacity: 0; width: 0; height: 0; }
 .switch .slider { position: absolute; inset: 0; background: var(--border); border-radius: 999px; transition: .2s; }
