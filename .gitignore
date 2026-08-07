@@ -1,0 +1,15 @@
+# 自托管/本地调试残留（不应上传）
+.surgehome/
+data/*.pem
+data/*.crt
+data/*.key
+data/*.pfx
+data/gen-cert.js
+data/serve-https.js
+data/serve-http.js
+*.pfx
+
+# 依赖与本地环境
+node_modules/
+.scratch/
+_scratch_off/
