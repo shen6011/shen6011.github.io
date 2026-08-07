@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#1f6feb" />
+  <title>保质期管家</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- 本地化依赖（已 vendoring，离线可用） -->
+  <script src="vendor/dexie.min.js"></script>
+  <script src="vendor/xlsx.full.min.js"></script>
+  <script src="vendor/html5-qrcode.min.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <h1 id="page-title">保质期管家</h1>
+    <button id="install-btn" class="install-btn" hidden>安装到桌面</button>
+  </header>
+
+  <main id="app" class="app-main"><!-- 视图渲染区 --></main>
+
+  <nav class="bottom-nav" id="bottom-nav">
+    <button class="nav-btn" data-route="dashboard"><span class="nav-ico">📊</span><span class="nav-label">看板</span></button>
+    <button class="nav-btn" data-route="add"><span class="nav-ico">➕</span><span class="nav-label">录入</span></button>
+    <button class="nav-btn" data-route="list"><span class="nav-ico">📦</span><span class="nav-label">清单</span></button>
+    <button class="nav-btn" data-route="settings"><span class="nav-ico">⚙️</span><span class="nav-label">设置</span></button>
+  </nav>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

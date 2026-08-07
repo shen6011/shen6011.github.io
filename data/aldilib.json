@@ -1,0 +1,906 @@
+[
+ {
+  "barcode": "2004060134666",
+  "name": "High Protein Yogur",
+  "brand": "Milsani (Aldi)",
+  "spec": "1 kg",
+  "country": "España",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050037223",
+  "name": "Fromage Frais Nature À Tartiner",
+  "brand": "Aldi, Petit pré",
+  "spec": "300 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050050833",
+  "name": "Beurre de cacahuètes Crunchy",
+  "brand": "Aldi, Trader Joe's",
+  "spec": "600 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050059706",
+  "name": "Eau de source de Montagne (Source Roche des Écrins)",
+  "brand": "Aldi, Rocheval",
+  "spec": "1,5L",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050065448",
+  "name": "Baguette graines et céréales",
+  "brand": "Aldi, Maison Menissez",
+  "spec": "230 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050102860",
+  "name": "Tartines croquantes",
+  "brand": "Aldi, Simplement Bon et Bio",
+  "spec": "200 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050133017",
+  "name": "Sauce Tomate Cuisinée",
+  "brand": "Aldi",
+  "spec": "420 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050133741",
+  "name": "Flocons d'avoine",
+  "brand": "Aldi, Bon et Bio",
+  "spec": "500 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2006050175543",
+  "name": "Lentilles corail",
+  "brand": "Aldi, Fleurs des champs",
+  "spec": "500 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "2014000047925",
+  "name": "Chocolate negro 90% cacao",
+  "brand": "Aldi, Moser Roth",
+  "spec": "",
+  "country": "España",
+  "src": "world"
+ },
+ {
+  "barcode": "2014000087853",
+  "name": "Crema suave de cacahuete",
+  "brand": "Aldi",
+  "spec": "500 g",
+  "country": "Spain",
+  "src": "world"
+ },
+ {
+  "barcode": "2024000087852",
+  "name": "Crema de Cacahuete Crunchy",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "Portugal, España",
+  "src": "world"
+ },
+ {
+  "barcode": "20242091",
+  "name": "Brócoli",
+  "brand": "ALDI GEMÜSE, Lor-IX",
+  "spec": "500g",
+  "country": "Alemania, Países Bajos, Portugal, España",
+  "src": "world"
+ },
+ {
+  "barcode": "24027366",
+  "name": "Copos de avena",
+  "brand": "Aldi, Holden Bridge",
+  "spec": "500 g",
+  "country": "Francia, Portugal",
+  "src": "world"
+ },
+ {
+  "barcode": "26006000",
+  "name": "Lait Demi écrémé Stérilisé UHT",
+  "brand": "Aldi, Milsani",
+  "spec": "1 L",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26006024",
+  "name": "Lait demi-écrémé",
+  "brand": "Aldi, Milsani",
+  "spec": "1 l",
+  "country": "France, Suisse",
+  "src": "world"
+ },
+ {
+  "barcode": "26015064",
+  "name": "Salade Italienne au thon",
+  "brand": "Aldi, Les Doris",
+  "spec": "280 g e",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26022284",
+  "name": "Filets de Maquereaux sauce Tomate et Basilic",
+  "brand": "Aldi, Les Doris",
+  "spec": "169 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26029054",
+  "name": "Pâte à tartiner aux noisettes",
+  "brand": "Aldi, Simplement Bon Et Bio",
+  "spec": "300 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26035017",
+  "name": "Lunettes de Romans à la fraise de la Drôme",
+  "brand": "Aldi, Les Douceurs de Jacquemart, Pays Gourmand",
+  "spec": "350 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26036083",
+  "name": "Cacahuètes - Grillées Salées",
+  "brand": "Aldi, Trader Joe's",
+  "spec": "250 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26036106",
+  "name": "Tortilla Chips Saveur Chili",
+  "brand": "Aldi",
+  "spec": "300 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26065175",
+  "name": "Fromage de Chèvre frais",
+  "brand": "Aldi, Chèvrefin",
+  "spec": "200 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26065731",
+  "name": "Beurre demi-sel gastronomique",
+  "brand": "Aldi, Champré, Chantoiseau",
+  "spec": "250 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26066301",
+  "name": "Saumon atlantique fumé",
+  "brand": "Golden seafood (Aldi)",
+  "spec": "200 g (6 à 10 tranches)",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26067049",
+  "name": "Yaourt à la grecque nature",
+  "brand": "Aldi, Milsani",
+  "spec": "4 * 150 g (600 g)",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "26073378",
+  "name": "Chocolate chip cookies",
+  "brand": "Aldi, Trader Joe's",
+  "spec": "225 g",
+  "country": "France, Portugal",
+  "src": "world"
+ },
+ {
+  "barcode": "4047247241731",
+  "name": "ALDI TRADER JOE‘S Original Kanadischer Ahornsirup  Aus Kanada; kräftiger, süßer Geschmack; ideal zu Pfannkuchen, Müsli, Obstsalat und vielem mehr 2.99 * 250-ml-Flasche Liter = 11.96TRADER JOE'S Original Kanadischer Ahornsirup  Aus Kanada; kräftiger, süßer Geschmack; ideal zu Pfannkuchen, Müsli, Obstsalat und vielem mehr 2.99€ 250-ml-Flasche Liter = 11.96€",
+  "brand": "Trader Joe's",
+  "spec": "250ml",
+  "country": "Frankreich, Deutschland, Spanien",
+  "src": "world"
+ },
+ {
+  "barcode": "4047247646635",
+  "name": "Vegane Falafel",
+  "brand": "Aldi, My Vay",
+  "spec": "200 g",
+  "country": "Deutschland, Niederlande, Polen",
+  "src": "world"
+ },
+ {
+  "barcode": "4047247752824",
+  "name": "Choco Rice",
+  "brand": "Aldi",
+  "spec": "500 g",
+  "country": "Belgique, France",
+  "src": "world"
+ },
+ {
+  "barcode": "4047247992978",
+  "name": "Agave syrup",
+  "brand": "Aldi",
+  "spec": "500g 360ml",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458011440",
+  "name": "Süßstofftabletten",
+  "brand": "Aldi, Süssli",
+  "spec": "72g",
+  "country": "Deutschland, Marokko, Senegal",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458021616",
+  "name": "Nussknacker - Vollmilchschokolade",
+  "brand": "Aldi, Choceur",
+  "spec": "100g",
+  "country": "Deutschland, Marokko, Rumänien",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458022040",
+  "name": "Vollkorn-Sandwich",
+  "brand": "Goldähren, Vollkorn Sandwich von Aldi",
+  "spec": "750g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458045797",
+  "name": "Wraps - Mehrkorn",
+  "brand": "Aldi, Goldähren",
+  "spec": "372 g (6 x 62 g)",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458149693",
+  "name": "Ceci",
+  "brand": "Aldi, King’s Crown",
+  "spec": "265g",
+  "country": "Germania",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458162340",
+  "name": "Pflanzenmargarine",
+  "brand": "Aldi, Bellasan, Walter Rau",
+  "spec": "500g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458229326",
+  "name": "Deutsche Markenbutter Mildgesäuert 82 % Fett",
+  "brand": "Aldi, ALDI MILSANI, Milsani, Milsani Aldi",
+  "spec": "250g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061458234696",
+  "name": "Eier",
+  "brand": "Aldi, Eifrisch, Gut Bio",
+  "spec": "10",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061459193695",
+  "name": "Frische Bio-Vollmilch 3,8 % Fett",
+  "brand": "Aldi, Bio+",
+  "spec": "1l",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061459208078",
+  "name": "Edelbitter- Schokolade",
+  "brand": "Aldi, Gut Bio, Halba",
+  "spec": "50g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061459329834",
+  "name": "Oat Milk (Barista Style)",
+  "brand": "Aldi, Acti Leaf",
+  "spec": "1 l",
+  "country": "France, Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4061459682649",
+  "name": "Bio-Frischkäse - Natur",
+  "brand": "Aldi, Aldi Bio, Gebrüder Woerle",
+  "spec": "160g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061459823226",
+  "name": "Protein granola",
+  "brand": "Aldi",
+  "spec": "400 g",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4061461010355",
+  "name": "Chips Paprika Style",
+  "brand": "Sun Snacks, Sun Snacks (Aldi)",
+  "spec": "200g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061461403775",
+  "name": "Triple Nut Granola",
+  "brand": "Aldi Harvest Morn",
+  "spec": "",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4061461935283",
+  "name": "Wholemeal Seeded Loaf",
+  "brand": "Aldi, Specially Selected",
+  "spec": "",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4061461968052",
+  "name": "Tomaten gehackt",
+  "brand": "Aldi, King's Crown",
+  "spec": "400 g / 240 g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061462044809",
+  "name": "Edelbitter 90 % Cacao",
+  "brand": "Aldi, Moser Roth",
+  "spec": "125g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061462066849",
+  "name": "Nusskati Nuss-Nougat-Creme",
+  "brand": "Aldi, Nusskati",
+  "spec": "400 g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061462529290",
+  "name": "Tomatenmark",
+  "brand": "Aldi, Bio+, Aldi Bio, Gut Bio, I. Schroeder",
+  "spec": "200g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061462872846",
+  "name": "Natives Olivenöl Bio",
+  "brand": "Aldi, Bio Aldi",
+  "spec": "750ml",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061463307743",
+  "name": "Tomatenmark 3-fach konzentriert",
+  "brand": "Aldi, I. Schroeder, King's Crown",
+  "spec": "200g",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4061463723178",
+  "name": "Tomato Ketchup Original",
+  "brand": "Aldi, Bramwells",
+  "spec": "500ml (550g)",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4061464811218",
+  "name": "Haferdrink ungesüßt",
+  "brand": "Aldi, My Vay",
+  "spec": "1l",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4065019005534",
+  "name": "Blueberry High Protein",
+  "brand": "Aldi, Milsani",
+  "spec": "200 g",
+  "country": "France, Netherlands",
+  "src": "world"
+ },
+ {
+  "barcode": "4065019005558",
+  "name": "Protein Joghurt Peach-Orange",
+  "brand": "Aldi, Milsani",
+  "spec": "200 g",
+  "country": "Frankreich, Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262001902",
+  "name": "Tomato Ketchup",
+  "brand": "Aldi, Regado",
+  "spec": "550grs",
+  "country": "Bulgarie, France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262002770",
+  "name": "Sauce Tomate À La Provençale",
+  "brand": "Aldi",
+  "spec": "420 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262034597",
+  "name": "Cassonade",
+  "brand": "Aldi, Albona",
+  "spec": "750g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262038557",
+  "name": "Muesli crunchy 4 noix",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262039486",
+  "name": "Unknown",
+  "brand": "Aldi, Mannapain",
+  "spec": "500 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262045449",
+  "name": "Chocolat dessert 64% cacao Corsé",
+  "brand": "Aldi, Isaura",
+  "spec": "200 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262046156",
+  "name": "Amandes",
+  "brand": "Aldi",
+  "spec": "200 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262049492",
+  "name": "Riche en omega 3 doux",
+  "brand": "Aldi, BELLASAN",
+  "spec": "",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262049546",
+  "name": "Boisson à l'avoine nature",
+  "brand": "Aldi, My Vay",
+  "spec": "1 l",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262049621",
+  "name": "TOURNESOL Tartine et cuisson",
+  "brand": "Aldi, Bellasan",
+  "spec": "500g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262050764",
+  "name": "Fromage à tartiner Ail et fines herbes",
+  "brand": "Aldi, Fromagerie Henri Hutin, Petit Pré - ALDI",
+  "spec": "150 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262055349",
+  "name": "烟熏鳟鱼",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262057282",
+  "name": "",
+  "brand": "Aldi, Le Marsigny",
+  "spec": "140 g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262068776",
+  "name": "Huile d'olive vierge extra fruitée",
+  "brand": "Aldi, Bellasan",
+  "spec": "500 ml",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068262073381",
+  "name": "Beurre De Cacahuètes",
+  "brand": "Aldi, Trader Joe's",
+  "spec": "",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4068706530739",
+  "name": "Dino shapes",
+  "brand": "Aldi, Golden Bridge",
+  "spec": "350g",
+  "country": "Bélgica, Francia, Alemania",
+  "src": "world"
+ },
+ {
+  "barcode": "4068706616358",
+  "name": "Nut chocolate paste",
+  "brand": "Aldi",
+  "spec": "350g",
+  "country": "France",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600003610",
+  "name": "Ciabatta Rolls",
+  "brand": "Aldi Village Bakery",
+  "spec": "4",
+  "country": "Germany, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600068367",
+  "name": "Cream of Tomato Soup",
+  "brand": "Aldi Bramwells",
+  "spec": "400 g",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600072029",
+  "name": "2 Stonebaked Baguettes",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600090849",
+  "name": "Classic Strawberry",
+  "brand": "Aldi",
+  "spec": "340g",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600109602",
+  "name": "Mango chutney",
+  "brand": "Aldi",
+  "spec": "370",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600165455",
+  "name": "Tiger Bloomer",
+  "brand": "Aldi",
+  "spec": "800 g",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600169934",
+  "name": "Muesli Swiss Style",
+  "brand": "Harvest Morn",
+  "spec": "1.1kg",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600179131",
+  "name": "Coconut milk",
+  "brand": "Aldi, Asia Specialities",
+  "spec": "400 ml",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600184197",
+  "name": "Malted Bloomer Bread",
+  "brand": "Aldi",
+  "spec": "800g",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600190112",
+  "name": "British unsalted butter",
+  "brand": "Aldi, Cowbelle",
+  "spec": "250 g",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600201658",
+  "name": "Red and white quinoa",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600202433",
+  "name": "Multi-Grain Hoops",
+  "brand": "Aldi, Harvest Morn",
+  "spec": "375g",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600223612",
+  "name": "Dried prunes, pitted and ready to eat",
+  "brand": "Aldi, The Foodie Market",
+  "spec": "500g",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600248646",
+  "name": "CORN FLAKES",
+  "brand": "Harvest Morn - Aldi",
+  "spec": "500g",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600248752",
+  "name": "Bite size wheat shreds",
+  "brand": "Aldi, Harvest Morn",
+  "spec": "500 g",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600266008",
+  "name": "Greek style natural yoghurt",
+  "brand": "Aldi, Brooklea",
+  "spec": "500 g",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600284910",
+  "name": "Everyday Essentials Fat Free Natural Yogurt",
+  "brand": "Aldi, Everyday Essentials",
+  "spec": "500g",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600391977",
+  "name": "Puglian Extra Virgin Oil",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "Ireland, United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600402970",
+  "name": "Panini Rolls",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600441672",
+  "name": "Cashew Nuts",
+  "brand": "Aldi, The Foodie Market",
+  "spec": "200g",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600526089",
+  "name": "Aldi Slightly Salted Rice Cake",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600564357",
+  "name": "dried mango",
+  "brand": "Aldi",
+  "spec": "100",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600565019",
+  "name": "Pitted Dates",
+  "brand": "Aldi",
+  "spec": "500 g",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "4088600574530",
+  "name": "Everyday Essentials Soya Unsweetened",
+  "brand": "Aldi",
+  "spec": "1L",
+  "country": "United Kingdom",
+  "src": "world"
+ },
+ {
+  "barcode": "42142195",
+  "name": "Naturell Mierbachquelle ohne Kohlensäure",
+  "brand": "Quellbrunn, naturell aldi",
+  "spec": "1.5l",
+  "country": "Deutschland",
+  "src": "world"
+ },
+ {
+  "barcode": "4311596458097",
+  "name": "Walnusskerne",
+  "brand": "10x Aldi 10.26-10x Aldi 04.26, 10x Lidl 10.26-04x Lidl 09.26-10x Aldi 04.26, 10x Lidl 10.26-04x Lidl 09.26-5x Aldi 04.26, Gut & Günstig",
+  "spec": "200g",
+  "country": "Deutschland, Schweiz",
+  "src": "world"
+ },
+ {
+  "barcode": "6931165503607",
+  "name": "Sandwich - Roasted Bacon And Stewed Beef",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6931165505519",
+  "name": "Egg Salad Whole-wheat Sandwich",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6946663037073",
+  "name": "Chocolate Milk",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6949999116306",
+  "name": "Salted Caramel Gelato",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6971046738636",
+  "name": "Yangzhou Fried Rice",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6973406631755",
+  "name": "卤汁风干牛肉",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "中华人民共和国",
+  "src": "cn"
+ },
+ {
+  "barcode": "6973832800008",
+  "name": "Milk & Butter Pancake",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6974158120535",
+  "name": "小花卷",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "中华人民共和国",
+  "src": "cn"
+ },
+ {
+  "barcode": "6974728711651",
+  "name": "Peanuts Salted",
+  "brand": "ALDI delight",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6974728713082",
+  "name": "Mung Bean Coconut Juice",
+  "brand": "ALDI Urban Eaters",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6974854975835",
+  "name": "Jasmine Soy Milk",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6975486440067",
+  "name": "Chocolate Milk",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ },
+ {
+  "barcode": "6976558261467",
+  "name": "Low fat Greek Yoghurt",
+  "brand": "Aldi",
+  "spec": "",
+  "country": "China",
+  "src": "cn"
+ }
+]

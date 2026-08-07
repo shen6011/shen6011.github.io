@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>保质期管家 · 手机安装指引</title>
+<style>
+  :root { --bg:#0f1419; --card:#1a2027; --fg:#e6e6e6; --muted:#9aa7b4; --accent:#3b82f6; --ok:#22c55e; --warn:#f59e0b; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height:1.7; padding:18px; }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 24px; margin: 8px 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 22px; font-size: 14px; }
+  .step { background: var(--card); border-radius: 14px; padding: 18px; margin-bottom: 18px; border-left: 4px solid var(--accent); }
+  .step h2 { margin: 0 0 12px; font-size: 18px; display:flex; align-items:center; gap:10px; }
+  .badge { background: var(--accent); color:#fff; width: 28px; height: 28px; border-radius: 50%; display:inline-flex; align-items:center; justify-content:center; font-size:14px; font-weight:700; flex:0 0 auto; }
+  .tip { background: rgba(34,197,94,.12); border:1px solid rgba(34,197,94,.4); color:#bff3cf; border-radius:10px; padding:10px 12px; font-size:13px; margin-top:10px; }
+  .warn { background: rgba(245,158,11,.12); border:1px solid rgba(245,158,11,.4); color:#ffe2b0; border-radius:10px; padding:10px 12px; font-size:13px; margin-top:10px; }
+  svg { display:block; width:100%; max-width:320px; height:auto; margin: 8px auto; background:#0b0f14; border-radius:10px; }
+  .row { display:flex; gap:12px; flex-wrap:wrap; }
+  .row .step { flex:1 1 280px; }
+  code { background:#0b0f14; padding:2px 6px; border-radius:6px; color:#9fd0ff; font-size:13px; }
+  a { color: var(--accent); }
+  .copybtn { background: var(--accent); color:#fff; border:0; border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; margin-left:8px; }
+</style>
+<script>
+  // 自动从当前部署地址推导出 App 网址（与指南同目录的 index.html）
+  (function () {
+    try {
+      var here = location.href;
+      var base = here.substring(0, here.lastIndexOf('/') + 1);
+      var app = base + 'index.html';
+      var el = document.getElementById('appUrl');
+      if (el) el.textContent = app;
+      var cp = document.getElementById('copyBtn');
+      if (cp) cp.addEventListener('click', function () {
+        navigator.clipboard && navigator.clipboard.writeText(app);
+        cp.textContent = '已复制';
+        setTimeout(function () { cp.textContent = '复制'; }, 1500);
+      });
+    } catch (e) {}
+  })();
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📱 保质期管家 · 手机安装指引</h1>
+  <p class="sub">全程只需一次联网。装到手机桌面后，断网也能扫码录入，数据只存在你手机里。</p>
+
+  <div class="step">
+    <h2><span class="badge">0</span>第 0 步：记住这个网址</h2>
+    <p>下面这个网址就是「保质期管家」的网页端。先把它<b>收藏 / 复制到手机备忘录</b>，后面要用：</p>
+    <p><code id="appUrl">（正在读取…）</code><button id="copyBtn" class="copybtn">复制</button></p>
+    <div class="tip">提示：把本页也一起收藏，以后想重装时还能找到步骤。</div>
+  </div>
+
+  <div class="row">
+    <!-- 安卓 -->
+    <div class="step" style="border-left-color:var(--ok)">
+      <h2><span class="badge" style="background:var(--ok)">安</span>安卓 Android</h2>
+      <p>用手机自带的 <b>Chrome 浏览器</b> 打开上面的网址。</p>
+      <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="60" y="10" width="200" height="180" rx="18" fill="#11161d" stroke="#2a3441"/>
+        <rect x="60" y="10" width="200" height="26" rx="18" fill="#0b0f14"/>
+        <circle cx="78" cy="23" r="3" fill="#f87171"/><circle cx="88" cy="23" r="3" fill="#fbbf24"/><circle cx="98" cy="23" r="3" fill="#22c55e"/>
+        <text x="160" y="22" fill="#9aa7b4" font-size="10" text-anchor="middle">Chrome</text>
+        <rect x="72" y="44" width="176" height="118" rx="6" fill="#0b0f14"/>
+        <text x="160" y="78" fill="#e6e6e6" font-size="11" text-anchor="middle">保质期管家</text>
+        <rect x="92" y="92" width="136" height="22" rx="11" fill="#22c55e"/>
+        <text x="160" y="107" fill="#06240f" font-size="10" text-anchor="middle" font-weight="700">安装应用</text>
+        <text x="160" y="140" fill="#9aa7b4" font-size="9" text-anchor="middle">点底部「安装应用」即可</text>
+      </svg>
+      <p>打开后，点浏览器<b>右上角 ⋮ 菜单 →「安装应用」</b>（或底部弹出的「安装」按钮）。</p>
+      <p>桌面会出现「保质期管家」图标，点它就能用。</p>
+      <div class="tip">安卓支持后台每日提醒，装好后到 App 内「设置」打开通知即可。</div>
+    </div>
+
+    <!-- iPhone -->
+    <div class="step" style="border-left-color:var(--warn)">
+      <h2><span class="badge" style="background:var(--warn)">果</span>苹果 iPhone</h2>
+      <p>用手机自带的 <b>Safari 浏览器</b> 打开上面的网址（务必是 Safari）。</p>
+      <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="60" y="10" width="200" height="180" rx="18" fill="#11161d" stroke="#2a3441"/>
+        <rect x="60" y="10" width="200" height="26" rx="18" fill="#0b0f14"/>
+        <text x="160" y="22" fill="#9aa7b4" font-size="10" text-anchor="middle">Safari</text>
+        <rect x="72" y="44" width="176" height="118" rx="6" fill="#0b0f14"/>
+        <text x="160" y="78" fill="#e6e6e6" font-size="11" text-anchor="middle">保质期管家</text>
+        <g transform="translate(110,96)">
+          <circle cx="12" cy="12" r="11" fill="none" stroke="#9aa7b4" stroke-width="2"/>
+          <path d="M8 12 L11 15 L16 9" stroke="#9aa7b4" stroke-width="2" fill="none"/>
+          <rect x="6" y="26" width="12" height="3" rx="1.5" fill="#9aa7b4"/>
+        </g>
+        <text x="186" y="110" fill="#e6e6e6" font-size="10" text-anchor="middle">分享</text>
+        <text x="160" y="150" fill="#9aa7b4" font-size="9" text-anchor="middle">点「分享」→「添加到主屏幕」</text>
+      </svg>
+      <p>点底部中间的 <b>分享按钮（⬆ 方框箭头）→「添加到主屏幕」→「添加」</b>。</p>
+      <p>桌面出现图标，点它就能用。</p>
+      <div class="warn">iPhone 不支持后台每日推送，但打开 App 时会自动列出临期/过期商品并提醒。数据只存你手机。</div>
+    </div>
+  </div>
+
+  <div class="step">
+    <h2><span class="badge">✓</span>装好后怎么用</h2>
+    <ul>
+      <li>点桌面图标进 App → 底部「＋」扫码录入商品。</li>
+      <li>首次扫某条码手填名称/规格，之后同条码自动带出。</li>
+      <li>填生产日期+保质期（或直接填到期日），自动算剩余天数。</li>
+      <li>「看板」页打开即高亮临期/过期；「导出」可一键生成 Excel。</li>
+      <li><b>断网也能用</b>，数据全在你手机里。</li>
+    </ul>
+  </div>
+
+  <div class="step">
+    <h2><span class="badge">!</span>常见问题</h2>
+    <p><b>打开显示「连接不安全 / 隐私警告」？</b><br>这是临时托管用的自签证书，正常。点「高级 → 继续访问（或「仍要访问」）」即可，不影响使用。</p>
+    <p><b>网址以后打不开了？</b><br>临时托管的网址可能失效。手机上已装好的 App 不受影响；需要新网址时联系 WorkBuddy 重新部署一次即可。</p>
+    <p><b>换手机了？</b><br>在新手机上打开网址、按上面步骤重新装一次即可（数据不跨设备同步，需要时可用 App 内「导出 JSON 备份」再导入新手机）。</p>
+  </div>
+</div>
+</body>
+</html>

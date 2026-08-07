@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>保质期管家 · 使用指南（图文版）</title>
+<style>
+  :root { --bg:#f6f8fb; --card:#ffffff; --ink:#0f172a; --sub:#475569; --line:#e2e8f0;
+          --accent:#0ea5a4; --accent-d:#0c8a89; --warn:#b45309; --ok:#16a34a; --bad:#dc2626; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0b1220; --card:#121c2e; --ink:#e6edf6; --sub:#9fb0c3; --line:#23344d;
+            --accent:#2dd4bf; --accent-d:#14b8a6; --warn:#fbbf24; --ok:#22c55e; --bad:#f87171; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+         background:var(--bg); color:var(--ink); line-height:1.6; padding:20px; }
+  .wrap { max-width:840px; margin:0 auto; }
+  h1 { font-size:24px; margin:0 0 4px; }
+  .lead { color:var(--sub); margin:0 0 20px; font-size:14px; }
+  .pill { display:inline-block; background:var(--card); border:1px solid var(--line); border-radius:999px;
+          padding:4px 12px; font-size:12px; color:var(--sub); margin:0 6px 6px 0; }
+  .method { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 18px 8px;
+            margin:18px 0; }
+  .method h2 { margin:0 0 4px; font-size:19px; display:flex; align-items:center; gap:8px; }
+  .tag { font-size:12px; font-weight:600; color:#fff; background:var(--accent); border-radius:6px; padding:2px 8px; }
+  .tag.alt { background:var(--ok); }
+  .method p.desc { color:var(--sub); font-size:14px; margin:6px 0 14px; }
+  .step { display:flex; gap:14px; padding:12px 0; border-top:1px dashed var(--line); }
+  .step:first-of-type { border-top:none; }
+  .num { flex:0 0 30px; height:30px; border-radius:50%; background:var(--accent); color:#fff; font-weight:700;
+         display:flex; align-items:center; justify-content:center; font-size:14px; }
+  .step .body { flex:1; }
+  .step h3 { margin:2px 0 6px; font-size:15px; }
+  .step p { margin:0; color:var(--sub); font-size:13.5px; }
+  .step svg { width:100%; max-width:320px; height:auto; margin-top:10px; border-radius:10px; border:1px solid var(--line); }
+  code { background:var(--bg); border:1px solid var(--line); border-radius:6px; padding:1px 6px; font-size:12.5px;
+         color:var(--accent-d); }
+  .note { background:var(--bg); border:1px solid var(--line); border-left:4px solid var(--warn); border-radius:8px;
+          padding:10px 14px; font-size:13px; color:var(--sub); margin:12px 0; }
+  .faq { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:18px 0; }
+  .faq h2 { margin:0 0 10px; font-size:18px; }
+  .faq dt { font-weight:600; margin-top:10px; }
+  .faq dd { margin:2px 0 0; color:var(--sub); font-size:13.5px; }
+  footer { color:var(--sub); font-size:12px; text-align:center; margin:24px 0 8px; }
+  a { color:var(--accent-d); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>保质期管家 · 使用指南</h1>
+  <p class="lead">纯本地运行，<b>不需要服务器、不需要账号、不联网也能用</b>。下面两种方式二选一，照图点就行。</p>
+  <div>
+    <span class="pill">📷 手机/摄像头扫码</span>
+    <span class="pill">⏰ 临期/过期预警</span>
+    <span class="pill">📤 导出 Excel</span>
+    <span class="pill">🔒 数据只存你设备</span>
+  </div>
+
+  <!-- ============ 方式一 ============ -->
+  <section class="method">
+    <h2><span class="tag">方式一</span> 电脑 + 摄像头（最省事，建议先试）</h2>
+    <p class="desc">适合超市收银台放一台 Windows 电脑。全程不用联网、不用证书，双击一个文件就开。</p>
+
+    <div class="step">
+      <div class="num">1</div>
+      <div class="body">
+        <h3>把整个 <code>expiry-keeper</code> 文件夹拷到那台电脑</h3>
+        <p>用 U 盘或微信文件传输助手，把文件夹整体复制过去，放到任意位置（如桌面）。</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="num">2</div>
+      <div class="body">
+        <h3>双击 <code>scripts\run-desktop.bat</code></h3>
+        <p>会弹出一个蓝色的“用户账户控制”窗口，点<b>是</b>。随后浏览器自动打开应用。</p>
+        <svg viewBox="0 0 280 170" role="img" aria-label="用户账户控制窗口示意">
+          <rect width="280" height="170" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+          <rect width="280" height="34" fill="#f1f5f9"/>
+          <text x="14" y="22" font-size="13" fill="#0f172a">用户账户控制</text>
+          <rect x="20" y="48" width="34" height="34" rx="6" fill="#fde68a"/>
+          <text x="29" y="71" font-size="16">🛡</text>
+          <text x="64" y="60" font-size="11.5" fill="#0f172a">是否允许此应用对你的设备</text>
+          <text x="64" y="76" font-size="11.5" fill="#0f172a">进行更改？</text>
+          <text x="64" y="94" font-size="10.5" fill="#475569">保质期管家 本地服务器</text>
+          <rect x="150" y="118" width="110" height="34" rx="6" fill="#16a34a"/>
+          <text x="205" y="140" font-size="13" fill="#fff" text-anchor="middle">是</text>
+          <rect x="24" y="118" width="110" height="34" rx="6" fill="#e2e8f0"/>
+          <text x="79" y="140" font-size="13" fill="#0f172a" text-anchor="middle">否</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="num">3</div>
+      <div class="body">
+        <h3>浏览器打开 <code>http://localhost:8000</code></h3>
+        <p>看到「保质期管家」界面就成功。点底部「＋」开始录入，首次会请求摄像头权限，点<b>允许</b>。</p>
+        <svg viewBox="0 0 300 150" role="img" aria-label="浏览器打开应用示意">
+          <rect width="300" height="150" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+          <rect width="300" height="26" fill="#0f172a"/>
+          <circle cx="16" cy="13" r="4" fill="#ef4444"/><circle cx="30" cy="13" r="4" fill="#f59e0b"/><circle cx="44" cy="13" r="4" fill="#22c55e"/>
+          <text x="70" y="17" font-size="10" fill="#cbd5e1">http://localhost:8000</text>
+          <text x="16" y="58" font-size="18" font-weight="700" fill="#0ea5a4">保质期管家</text>
+          <text x="16" y="80" font-size="11" fill="#475569">临期 2 · 过期 0 · 总数 15</text>
+          <rect x="16" y="98" width="120" height="30" rx="8" fill="#0ea5a4"/>
+          <text x="76" y="118" font-size="13" fill="#fff" text-anchor="middle">＋ 扫码录入</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="note">💡 用完后关闭那个黑色窗口（按 Ctrl+C）即可停止。下次要用再双击一次 <code>run-desktop.bat</code>。</div>
+  </section>
+
+  <!-- ============ 方式二 ============ -->
+  <section class="method">
+    <h2><span class="tag alt">方式二</span> 手机扫码（随身方便）</h2>
+    <p class="desc">手机要调摄像头必须走 HTTPS，需要你那台 Windows 电脑当一次“临时服务器”。一次性设置，之后手机桌面点图标即用。</p>
+
+    <div class="step">
+      <div class="num">1</div>
+      <div class="body">
+        <h3>在电脑上双击 <code>scripts\run-phone.bat</code></h3>
+        <p>点<b>是</b>允许。屏幕上会显示一行地址，形如 <code>https://192.168.x.x:8443/</code>，<b>把它记下来</b>（这就是你手机要打开的地址）。</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="num">2</div>
+      <div class="body">
+        <h3>手机连<b>同一个 WiFi</b>，打开浏览器输入那个地址</h3>
+        <p>苹果用 Safari，安卓用 Chrome。地址栏输入第 1 步记下的 <code>https://192.168.x.x:8443/</code>。</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="num">3</div>
+      <div class="body">
+        <h3>遇到“连接不是私密连接”→ 点「高级」→「继续访问」</h3>
+        <p>这是自签证书的正常提示，数据只在你本地，点继续即可。</p>
+        <svg viewBox="0 0 300 180" role="img" aria-label="证书警告与继续访问示意">
+          <rect width="300" height="180" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+          <rect width="300" height="30" fill="#dc2626"/>
+          <text x="12" y="20" font-size="11.5" fill="#fff">🔒 您的连接不是私密连接</text>
+          <text x="14" y="56" font-size="10.5" fill="#475569">攻击者可能会试图窃取您的信息</text>
+          <text x="14" y="80" font-size="10.5" fill="#475569">地址：https://192.168.1.50:8443</text>
+          <rect x="14" y="104" width="92" height="30" rx="6" fill="#1d4ed8"/>
+          <text x="60" y="124" font-size="12" fill="#fff" text-anchor="middle">高级</text>
+          <rect x="120" y="104" width="166" height="30" rx="6" fill="#16a34a"/>
+          <text x="203" y="124" font-size="11.5" fill="#fff" text-anchor="middle">继续访问（不安全）</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="num">4</div>
+      <div class="body">
+        <h3>点浏览器菜单 →「添加到主屏幕」</h3>
+        <p>应用出来后，苹果点底部「分享 □⧉」→ 添加到主屏幕；安卓点右上「⋮」→ 安装应用 / 添加到主屏幕。取名「保质期管家」。</p>
+        <svg viewBox="0 0 300 170" role="img" aria-label="添加到主屏幕菜单示意">
+          <rect width="300" height="170" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+          <text x="16" y="26" font-size="13" fill="#0f172a">⋮  菜单</text>
+          <line x1="12" y1="36" x2="288" y2="36" stroke="#e2e8f0"/>
+          <text x="44" y="62" font-size="12" fill="#475569">📤  分享…</text>
+          <rect x="10" y="74" width="280" height="30" rx="6" fill="#ecfdf5" stroke="#16a34a"/>
+          <text x="44" y="94" font-size="12" fill="#16a34a" font-weight="700">🔖  添加到主屏幕</text>
+          <text x="44" y="132" font-size="12" fill="#475569">⭐  收藏</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="num">5</div>
+      <div class="body">
+        <h3>完成！以后点桌面图标就能用</h3>
+        <p>应用已装到手机，<b>断网也能用</b>。电脑上的黑色窗口保持开着即可（不用时 Ctrl+C 关闭）。</p>
+      </div>
+    </div>
+
+    <div class="note">⚠️ 电脑关机或关了那个窗口，手机就访问不到了（但已录入的数据还在手机里，不会丢）。下次用再双击 <code>run-phone.bat</code> 即可。</div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq">
+    <h2>常见问题</h2>
+    <dl>
+      <dt>手机打不开 / 一直连不上？</dt>
+      <dd>① 确认手机和电脑连的是<b>同一个 WiFi</b>；② 电脑防火墙可能拦了 8443 端口，脚本已自动放通，若仍不行可临时关防火墙重试；③ 地址里的 IP 要换成电脑<b>实际</b>的局域网 IP（看电脑「设置→网络和 Internet→属性」里的 IPv4 地址）。</dd>
+
+      <dt>摄像头用不了 / 提示不安全？</dt>
+      <dd>手机必须用 <code>https://…</code> 地址（方式二）；电脑本机用 <code>http://localhost:8000</code>（方式一）。其他方式浏览器不允许开摄像头。</dd>
+
+      <dt>我的数据存在哪？安全吗？</dt>
+      <dd>只存在你打开它的那台设备浏览器里（IndexedDB），不上云、不联网、无账号。换手机/电脑时，在「设置 → 备份到 JSON」导出，再到新设备「恢复 JSON」即可迁移。</dd>
+
+      <dt>要不要联网才能查商品名？</dt>
+      <dd>不用。第一次扫某条码手动填一次名称，之后本地自动记住。在线条码库默认关闭，需要时在「设置」里开（仅本机缓存，不读你的记录）。</dd>
+    </dl>
+  </section>
+
+  <footer>保质期管家 ExpiryKeeper · 本地化 · 免费 · 数据自持 ｜ 图文指南（可离线打开）</footer>
+</div>
+</body>
+</html>
